@@ -1,0 +1,54 @@
+body {
+    background-color: aqua;
+} 
+
+p{
+    margin-left: 20px;
+}
+table, th, td {
+    border: 1px solid;
+    width: 50%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th, td {
+    padding: 10px;
+}
+
+tr:hover {
+    background-color: beige;
+}
+
+.dropdown-button{
+    padding: 10px;
+    border: none;
+    background-color: beige;
+    cursor: pointer;
+}
+
+.dropdown-button:hover {
+    background-color: aqua;
+}
+
+.dropdown-menu {
+position: absolute;
+background-color: beige;
+min-width: 150px;
+display: none;
+}
+
+.dropdown-menu a {
+     color: black;
+     padding: 10px 13px;
+     text-decoration: none;
+     display: block;
+}
+
+.dropdown-menu a:hover{
+    background-color: aqua;
+}
+
+.dropdown:hover .dropdown-menu{
+    display:block ;
+}
